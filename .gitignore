@@ -1,0 +1,45 @@
+# The sampled expansion is distributed via GitHub Releases only, never git.
+# See docs/RELEASING.md and LICENSING.md.
+
+# Audio and monoliths
+*.ch[0-9]*
+*.wav
+*.aif
+*.aiff
+*.flac
+*.mp3
+*.ogg
+*.m4a
+*.hr1
+*.lwz
+
+# Expansion content (sample maps, presets and artwork pending rights clearance)
+Samples/
+SampleMaps/
+AudioFiles/
+UserPresets/
+Images/
+expansion_info.xml
+*.preset
+
+# Builds and archives
+dist/
+*.zip
+*.7z
+*.rar
+*.sha256
+
+# OS and editor junk, backups
+.DS_Store
+Icon?
+*.bak
+*~
+*.tmp
+*.swp
+
+# Secrets and local machine config
+.env
+.env.*
+*.local
+*.pem
+*.key
